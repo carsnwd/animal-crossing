@@ -1,3 +1,6 @@
+![ac](https://www.stickpng.com/assets/images/5b4a215cc051e602a568cd7c.png)
+![vue](https://vuejs.org/images/logo.png)
+
 # animal-crossing
 
 - [x] Setup and figure out basics
