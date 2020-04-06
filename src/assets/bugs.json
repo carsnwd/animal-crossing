@@ -1,0 +1,98 @@
+{
+    "Common Butterfly": {
+        "name": "Common Butterfly",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Icon-commonbutterfly.png",
+        "location": "Flying",
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "value": 160,
+        "timeOfDay": "4AM - 7AM"
+    },
+    "Cyclommatus stag": {
+        "name": "Cyclommatus stag",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/17/NH-Icon-cyclommatusstag.png",
+        "location": "On Trees (Coconut)",
+        "monthsAvailable": [
+            "Jul",
+            "Aug"
+        ],
+        "value": 8000,
+        "timeOfDay": "5PM - 8AM"
+    },
+    "Fly": {
+        "name": "Fly",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/4f/NH-Icon-fly.png",
+        "location": "On Trash Items",
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "July",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "value": 60,
+        "timeOfDay": "All Day"
+    },
+    "Monarch Butterfly": {
+        "name": "Monarch Butterfly",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-monarchbutterfly.png/",
+        "location": "Flying",
+        "monthsAvailable": [
+            "Sep",
+            "Oct",
+            "Nov"
+        ],
+        "value": 140,
+        "timeOfDay": "4AM - 5PM"
+    },
+    "Tarantula": {
+        "name": "Tarantula",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0a/NH-Icon-tarantula.png",
+        "location": "On the Ground",
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "Nov",
+            "Dec"
+        ],
+        "value": 8000,
+        "timeOfDay": "7PM - 4AM"
+    },
+        "Tiger Beetle": {
+            "name": "Tiger Beetle",
+            "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-tigerbeetle.png",
+            "location": "On the Ground",
+            "monthsAvailable": [
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "July",
+                "Aug",
+                "Sep",
+                "Oct"
+            ],
+            "value": 1500,
+            "timeOfDay": "7PM - 4AM"
+        }
+}

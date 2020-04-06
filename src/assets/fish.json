@@ -1,0 +1,100 @@
+{
+    "Coelacanth": {
+        "name": "Coelacanth", 
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png", 
+        "location": "Sea - Rain", 
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "July",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ], 
+        "value": 15000,
+        "timeOfDay": "All Day"
+    },
+    "Biterling": {
+        "name": "Biterling",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png/",
+        "location": "River",
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Nov",
+            "Dec"
+        ],
+        "value": 900,
+        "timeOfDay": "All Day"
+    },
+    "Crucian Carp":{
+        "name": "Crucian Carp",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png",
+        "location": "River",
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "July",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "value": 160,
+        "timeOfDay": "All Day"
+    },
+    "Freshwater Goby": {
+        "name": "Freshwater Goby",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png",
+        "location": "River",
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "July",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "value": 400,
+        "timeOfDay": "Night"
+    },
+    "Pale Chub": {
+        "name": "Pale Chub",
+        "img": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png",
+        "location": "Pond",
+        "monthsAvailable": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "July",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "value": 200,
+        "timeOfDay": "Morning"
+    }
+}
