@@ -1,5 +1,14 @@
 # animal-crossing
 
+[x] Setup and figure out basics
+[x] Create a basic component to show the JSON data in a table
+[x] Setup routing with vue-router
+[x] Look into Buefy to make it look pretty
+[ ] Inject/nest a component within the AnimalsList component to display the month available
+[ ] Setup filtering
+[ ] Setup checking items on the table
+[ ] Setup storing and loading to cookies
+
 ## Project setup
 ```
 npm install
