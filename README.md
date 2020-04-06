@@ -1,4 +1,4 @@
-![ac](https://www.stickpng.com/assets/images/5b4a215cc051e602a568cd7c.png)
+![ac](https://vignette.wikia.nocookie.net/logopedia/images/d/d2/Animal_Crossing_logo.png)
 ![vue](https://vuejs.org/images/logo.png)
 
 # animal-crossing
