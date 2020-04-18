@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-    <p>
-      <router-link to="/bugs">Bugs</router-link>
-      <router-link to="/fish">Fish</router-link>
-    </p>
+    <header-nav></header-nav>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 
+import HeaderNav from './components/HeaderNav.vue';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    HeaderNav
+  }
 }
 </script>
 
-<style>
-
+<style lang="css">
+  @import '~bulma/css/bulma.css';
 </style>

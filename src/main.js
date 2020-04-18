@@ -1,5 +1,10 @@
 import Vue from 'vue';
+//vue router for SPA navigation
 import VueRouter from 'vue-router';
+Vue.use(VueRouter);
+//end vue router
+
+//buefy and font awesome to use bulma and font awesome libraries with vue
 import Buefy from 'buefy';
 import 'buefy/dist/buefy.css';
 import App from './App.vue';
@@ -8,11 +13,10 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(fas)
-Vue.component('vue-fontawesome', FontAwesomeIcon)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-Vue.use(VueRouter); //SPA routing for Vue
 Vue.use(Buefy, {
-  defaultIconComponent: "vue-fontawesome",
+  defaultIconComponent: "font-awesome-icon",
   defaultIconPack: "fas",
   customIconPacks: {
     fas: {
@@ -25,22 +29,20 @@ Vue.use(Buefy, {
       iconPrefix: ""
     }
   }
-}); //Bulma styling to use with app.
+});
+//end buefy and font awesome
 
 Vue.config.productionTip = false
 
-import BUGS from './assets/bugs.json';
-import FISH from './assets/fish.json';
-
+//components
 import AnimalList from './components/AnimalList.vue'
 
-let getAnimalsAsArray = (animals) => {
-  return Object.keys(animals).map((k) => animals[k]);
-}
+//services
+import AnimalQueryService from './services/AnimalQueryService'
 
 const routes = [
-  {path: '/bugs', component: AnimalList, props: {animals: getAnimalsAsArray(BUGS)}},
-  { path: '/fish', component: AnimalList, props: { animals: getAnimalsAsArray(FISH) }}
+  {path: '/bugs', component: AnimalList, props: {animals: AnimalQueryService.getBugs()}},
+  { path: '/fish', component: AnimalList, props: { animals: AnimalQueryService.getFish()}}
 ]
 
 const router = new VueRouter({
