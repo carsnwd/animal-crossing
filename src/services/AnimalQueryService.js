@@ -12,7 +12,7 @@ function formatAnimalsToArray(animals) {
 /**
  * @method isAvailable
  * @description Checks if the animal is currently available within it's available months.
- * @param {} monthsAvailable 
+ * @param {Object[]} monthsAvailable 
  */
 function isAvailable(monthsAvailable) {
     const MONTHS = [
