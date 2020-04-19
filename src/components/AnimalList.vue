@@ -20,7 +20,7 @@
           field="monthsAvailable"
           label="Months Available"
         >{{props.row.monthsAvailable.join(' ')}}</b-table-column>
-        <b-table-column label="Currently Available">{{isAvailable(props.row.monthsAvailable) ? "Yes" : "No"}}</b-table-column>
+        <b-table-column field="isCurrentlyAvailable" label="Currently Available" sortable>{{props.row.isCurrentlyAvailable}}</b-table-column>
       </template>
     </b-table>
   </div>
@@ -28,27 +28,7 @@
 
 <script>
 export default {
-  props: ["animals"],
-  methods: {
-    isAvailable(monthsAvailable) {
-      const MONTHS = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec"
-      ];
-      const currentMonth = MONTHS[new Date().getMonth()];
-      return monthsAvailable.indexOf(currentMonth) > 0;
-    }
-  }
+  props: ["animals"]
 };
 </script>
 
