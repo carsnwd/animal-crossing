@@ -5,7 +5,8 @@
             :bordered="true"
             :focusable="true"
             :striped="true"
-            :sort-icon="sortIcon">
+            :sort-icon="sortIcon"
+            :checkable="true">
             <template slot-scope="props">
                 <b-table-column field="name" label="Name" sortable>
                     {{props.row.name}}
@@ -34,4 +35,7 @@ export default {
 </script>
 
 <style lang="less">
+    .is-checked {
+        opacity: 50%
+    }
 </style>
