@@ -3,7 +3,7 @@
         <b-table
             :data="animals"
             :bordered="true"
-            :focusable="true"
+            :focusable="false"
             :striped="true"
             :sort-icon="sortIcon"
             :checkable="true">
@@ -22,6 +22,9 @@
                 </b-table-column>
                 <b-table-column field="timeOfDay" label="Time of Day" sortable>
                     {{props.row.timeOfDay}}
+                </b-table-column>
+                <b-table-column field="monthsAvailable" label="Months Available">
+                    {{props.row.monthsAvailable.join(' ')}}
                 </b-table-column>
             </template>
         </b-table>
